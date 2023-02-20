@@ -4,7 +4,7 @@ A simple web app that lets a user enter text and save it to their local browser 
 
 ## Demo
 
-
+![image](https://user-images.githubusercontent.com/10481532/220203932-1185bc71-0fca-4563-95ed-b5ac8e41ad7a.png)
 
 ## Link
 
