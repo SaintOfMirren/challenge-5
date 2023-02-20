@@ -1,0 +1,17 @@
+.hour {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    background-color: rgb(10, 75, 31);
+  }
+  
+  .past {
+    background-color: #4f5253;
+    color: black;
+  }
+
+  .now {
+    background-color: rgb(6, 17, 121);
+  }
