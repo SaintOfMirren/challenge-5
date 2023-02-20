@@ -4,14 +4,20 @@
     font-size: 20px;
     font-weight: bold;
     border: 1px solid #ccc;
-    background-color: rgb(10, 75, 31);
+    background-color: rgb(2, 150, 49);
   }
   
   .past {
-    background-color: #4f5253;
+    background-color: #818283;
     color: black;
   }
 
   .now {
-    background-color: rgb(6, 17, 121);
+    background-color: rgb(161, 10, 10);
   }
+
+  /* .entry {
+    width: 75%; 
+    height:100%;
+    columns: 10;
+  } */

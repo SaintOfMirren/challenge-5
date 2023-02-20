@@ -11,50 +11,53 @@
 
 <body class="d-flex bg-dark text-white flex-wrap justify-content-center align-content-center h-100">
   <div class="container d-flex flex-column">
-    <h1 id="currentDay" class="d-flex justify-content-center my-2 p-2"></h1>
+    <h1 id="heading" class="d-flex justify-content-center">Workday Scheduler</h1>
+    <span class="d-flex justify-content-center">Just a simple app to set reminders for meetings and anything you might have scheduled</span>
+    <h4 id="currentDay" class="d-flex justify-content-center my-2 p-2"></h4>
     <div class="d-flex flex-column">
       <div class="hour d-flex flex-row w-100 p-2 h-25 justify-content-center" data-hour="8">
-        <div class="w-25 h-25 col-2">8 AM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">8 AM</div>
+        <div class="w-75 h-100 col-10 entry" id="eightAm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="9">
-        <div class="w-25 h-25 col-2">9 AM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">9 AM</div>
+        <div class="w-75 h-100 col-10 entry" id="nineAm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="10">
-        <div class="w-25 h-25 col-2">10 AM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">10 AM</div>
+        <div class="w-75 h-100 col-10 entry" id="tenAm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="11">
-        <div class="w-25 h-25 col-2">11 AM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">11 AM</div>
+        <div class="w-75 h-100 col-10 entry" id="elevenAm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="12">
-        <div class="w-25 h-25 col-2">12 PM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">12 PM</div>
+        <div class="w-75 h-100 col-10 entry" id="twelvePm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="13">
-        <div class="w-25 h-25 col-2">1 PM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">1 PM</div>
+        <div class="w-75 h-100 col-10 entry" id="onePm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="14">
-        <div class="w-25 h-25 col-2">2 PM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">2 PM</div>
+        <div class="w-75 h-100 col-10 entry" id="twoPm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="15">
-        <div class="w-25 h-25 col-2">3 PM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">3 PM</div>
+        <div class="w-75 h-100 col-10 entry" id="threePm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="16">
-        <div class="w-25 h-25 col-2">4 PM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">4 PM</div>
+        <div class="w-75 h-100 col-10 entry" id="fourPm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div class="hour d-flex flex-row w-100 p-2 h-25" data-hour="17">
-        <div class="w-25 h-25 col-2">5 PM</div>
-        <div class="w-75 h-25 col-10 entry">What you gotta do today?</div>
+        <div class="w-25 h-100 col-2 border border-light rounded">5 PM</div>
+        <div class="w-75 h-100 col-10 entry" id="fivePm" data-placeholder="What you gotta do at this hour?"></div>
       </div>
       <div>
         <h4 class="d-flex justify-content-center my-4 py-2">Additional Notes</h4>
+        <div class="d-flex justify-content-center my-4 py-2 h-100 border-light rounded entry" id="notes" data-placeholder="What else you tryna remember?"></div>
       </div>
     </div>
   </div>
