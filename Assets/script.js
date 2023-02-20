@@ -1,3 +1,4 @@
+// once page is loaded pull the current date and time from dayjs display it in my h4 div
 $(document).ready(function () {
   var currentHour = dayjs().hour();
   console.log(currentHour);
@@ -16,28 +17,9 @@ $(document).ready(function () {
   });
   const currentDay = dayjs().format('dddd, MMMM D, YYYY');
   $('#currentDay').text(currentDay);
-
-
-  // $('.entry').focus(function () {
-  //   $(this).prop('contenteditable', true);
-  // }, function () {
-  //   $(this).prop('contenteditable', false);
-
-  //   // Save the text to local storage
-  //   var text = $(this).text();
-  //   var hour = $(this).data('entry');
-  //   localStorage.setItem(hour, text);
 });
 
-// Load the text from local storage
-// $('.entry').each(function () {
-//   var hour = $(this).data('entry');
-//   var text = localStorage.getItem(hour);
-//   if (text) {
-//     $(this).text(text);
-//   }
-// });
-
+// pulling the divs that I want to be able to edit and add text to
 // Get all the div elements with the "editable" class
 const editableDivs = document.querySelectorAll('.entry');
 

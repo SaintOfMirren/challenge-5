@@ -1,3 +1,4 @@
+/* default style for all hours */
 .hour {
     padding: 20px;
     text-align: center;
@@ -6,18 +7,17 @@
     border: 1px solid #ccc;
     background-color: rgb(2, 150, 49);
   }
-  
+/* style for hours before current time   */
   .past {
     background-color: #818283;
     color: black;
   }
-
+/* style for hour that matches current time */
   .now {
     background-color: rgb(161, 10, 10);
   }
 
-  /* .entry {
-    width: 75%; 
-    height:100%;
-    columns: 10;
-  } */
+  .notes {
+    border: 1px solid white;
+    background-color: #b5c075;
+  }
